@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Quiz</h1>
+    <form action="/submit" method="post">
+        <label for="q1">Question 1: What is the capital of France?</label><br>
+        <input type="radio" id="paris" name="answer1" value="option1">
+        <label for="paris">Paris</label><br>
+        <input type="radio" id="london" name="answer1" value="option2">
+        <label for="london">London</label><br>
+        <input type="radio" id="rome" name="answer1" value="option3">
+        <label for="rome">Rome</label><br><br>
+
+        <label for="q2">Question 2: What is 2 + 2?</label><br>
+        <input type="radio" id="3" name="answer2" value="option1">
+        <label for="3">3</label><br>
+        <input type="radio" id="4" name="answer2" value="option2">
+        <label for="4">4</label><br>
+        <input type="radio" id="5" name="answer2" value="option3">
+        <label for="5">5</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
